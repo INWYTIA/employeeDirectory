@@ -7,7 +7,7 @@ class Table extends Component {
   };
 
   componentDidMount() {
-    this.setState({ resutls: employees })
+    this.setState({ results: employees })
   }
 
   render() {
