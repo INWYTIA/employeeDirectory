@@ -18,7 +18,7 @@ class Table extends Component {
           <th>Department</th>
           <th>PT/FT</th>
         </tr>
-        {state.results.map(result => (
+        {this.state.results.map(result => (
           <tr>
             <td>{result.name}</td>
             <td>{result.department}</td>
